@@ -12,23 +12,28 @@ h1, h2 {
 
 
 h2 {
-  padding: 0;
   border-bottom: solid 2px;
   margin-bottom: .5rem;
 }
 
-div{
-  
+b {
+  text-align: center;
+}
+
+.center {
+  margin: 16px auto;
+	text-align: center;
+	display: block;
 }
 
 ul {
-  padding-left: 0rem;
+  padding-left: 0;
   list-style-type: disclosure-closed;
   display: inline-block;
 }
 
-li{
-  
+li {
+  text-align: left;
 }
 
 .rainbow {
