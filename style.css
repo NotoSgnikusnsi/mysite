@@ -24,10 +24,20 @@ ul {
   list-style-type: disclosure-closed;
 }
 
-.icon {
-  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
-  width:  180px;       /* ※縦横を同値に */
-  height: 180px;       /* ※縦横を同値に */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+.about-container span.icon {
+  text-align: center;
+  border-radius: 50%;
+}
+
+.about-container span.profile {
+  width: 45%;
 }
 
 .rainbow {
