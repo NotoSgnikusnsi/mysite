@@ -30,10 +30,6 @@ ul {
   height: 180px;       /* ※縦横を同値に */
 }
 
-.about {
-  
-}
-
 .rainbow {
   color: #FF8C00;
   background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
