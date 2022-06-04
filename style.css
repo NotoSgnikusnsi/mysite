@@ -24,6 +24,16 @@ ul {
   list-style-type: disclosure-closed;
 }
 
+.icon {
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width:  180px;       /* ※縦横を同値に */
+  height: 180px;       /* ※縦横を同値に */
+}
+
+.about {
+  
+}
+
 .rainbow {
   color: #FF8C00;
   background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
