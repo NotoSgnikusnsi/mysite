@@ -3,20 +3,19 @@ body {
   padding-right: 2rem;
   margin: 0 auto;
   max-width: 768px;
+  text-align: center;
 }
 
 h1, h2 {
   font-family: sans-serif;
 }
 
-h1 {
-  text-align: center;
-}
 
 h2 {
   display: table;
   border-bottom: solid 2px;
   margin-bottom: .5rem;
+  text-align: center;
 }
 
 ul {
