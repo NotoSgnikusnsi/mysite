@@ -7,33 +7,21 @@ body {
 
 h1, h2 {
   font-family: sans-serif;
+}
+
+h1 {
   text-align: center;
 }
 
-
 h2 {
+  display: table;
   border-bottom: solid 2px;
   margin-bottom: .5rem;
 }
 
-b {
-  text-align: center;
-}
-
-.center {
-  margin: 16px auto;
-	text-align: center;
-	display: block;
-}
-
 ul {
-  padding-left: 0;
+  padding-left: 1rem;
   list-style-type: disclosure-closed;
-  display: inline-block;
-}
-
-li {
-  text-align: left;
 }
 
 .rainbow {
