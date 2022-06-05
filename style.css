@@ -9,10 +9,6 @@ h1, h2 {
   font-family: sans-serif;
 }
 
-h1 {
-  text-align: center;
-}
-
 h2 {
   display: table;
   border-bottom: solid 2px;
@@ -29,7 +25,7 @@ ul {
    width: 40%;
    height: 40%;
    text-align: center;
-  }
+}
 
 .rainbow {
   color: #FF8C00;
@@ -50,6 +46,24 @@ ul {
 
   .about-container span.profile {
     width: 45%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    margin: 16px auto;
+	  text-align: center;
+  	display: block;
+  	border: 1px solid #000;
+  }
+  .main .center {
+    taxt-align: left;
+    
   }
   
 }
